@@ -29,8 +29,8 @@ This document defines the full step-by-step plan Codex should follow to implemen
 
 ## 📜 Phase 2 · OpenAPI Spec Parser
 
-- [ ] `OpenAPISpec.swift`: Swift structs for OpenAPI 3.1 fields.
-- [ ] `SpecLoader.swift`: load and decode YAML/JSON from file.
+- [x] `OpenAPISpec.swift`: Swift structs for OpenAPI 3.1 fields.
+- [x] `SpecLoader.swift`: load and decode YAML/JSON from file.
 - [ ] Test valid/invalid/partial schema loading.
 
 ---
