@@ -1,0 +1,5 @@
+openapi: 3.1.0
+info:
+  title: Invalid API
+  version "1.0" # missing colon after version key
+paths: {}
