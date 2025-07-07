@@ -1,0 +1,14 @@
+repo: "swift-codex-openapi-generator"
+entrypoint: "swift run generator --input OpenAPI/api.yaml --output Generated/"
+generates:
+  - "Generated/Client/"
+  - "Generated/Server/"
+language: "swift"
+dependencies:
+  - "vapor@4.115.0"
+codex-compatible: true
+triggers:
+  - "OpenAPI/api.yaml"
+tests:
+  - "swift test"
+visibility: "all generated code is committed"
