@@ -19,11 +19,11 @@ This document defines the full step-by-step plan Codex should follow to implemen
 
 ## 🧱 Phase 1 · Project Scaffolding
 
-- [ ] Initialize `Package.swift` with CLI and test targets.
-- [ ] Create `Sources/Generator/main.swift`.
-- [ ] Create `Tests/GeneratorTests/` and `Tests/ServerTests/`.
-- [ ] Add example `OpenAPI/api.yaml`.
-- [ ] Add `.gitignore`.
+- [x] Initialize `Package.swift` with CLI and test targets.
+- [x] Create `Sources/Generator/main.swift`.
+- [x] Create `Tests/GeneratorTests/` and `Tests/ServerTests/`.
+- [x] Add example `OpenAPI/api.yaml`.
+- [x] Add `.gitignore`.
 
 ---
 
