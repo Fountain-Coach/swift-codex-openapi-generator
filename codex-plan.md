@@ -6,8 +6,8 @@ This document defines the full step-by-step plan Codex should follow to implemen
 
 ## 🪪 Phase 0 · Repository Identity
 
-- [ ] Create `agent.swift` to define Codex behavior and generation triggers.
-- [ ] Create `.codex` manifest with:
+- [x] Create `agent.swift` to define Codex behavior and generation triggers.
+- [x] Create `.codex` manifest with:
   - `repo`: swift-codex-openapi-generator
   - `entrypoint`: `swift run generator --input OpenAPI/api.yaml --output Generated/`
   - `generates`: `Generated/Client/`, `Generated/Server/`
